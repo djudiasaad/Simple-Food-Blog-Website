@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <div class="logo">Food Blog</div>
+      <ul class="nav-links">
+        <li><a href="recipe-of-month.html">Recipe of the Month</a></li>
+        <li>
+          <a href="#recipes" class="recipes-link">
+            Recipes
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="category-nav">
+      <ul>
+        <li><a href="#pasta">Pasta</a></li>
+        <li><a href="#taco">Taco</a></li>
+        <li><a href="#pizza">Pizza</a></li>
+        <li><a href="#dessert">Dessert</a></li>
+        <li><a href="#breakfast">Breakfast</a></li>
+        <li><a href="#lunch">Lunch</a></li>
+        <li><a href="#dinner">Dinner</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="food-grid">
+      <article class="food-item">
+        <div class="food-image">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D" alt="Pizza">
+          <div class="food-overlay">
+            <h3>Pizza</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="food-item">
+        <div class="food-image">
+          <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fHww" alt="Hamburger">
+          <div class="food-overlay">
+            <h3>Hamburger</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="food-item">
+        <div class="food-image">
+          <img src="https://images.unsplash.com/photo-1584776296944-ab6fb57b0bdd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG9hc3R8ZW58MHx8MHx8fDA%3D" alt="Toast">
+          <div class="food-overlay">
+            <h3>Toast</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="food-item">
+        <div class="food-image">
+          <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsbW9ufGVufDB8fDB8fHww" alt="Salmon">
+          <div class="food-overlay">
+            <h3>Salmon</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="food-item">
+        <div class="food-image">
+          <img src="https://plus.unsplash.com/premium_photo-1664472619078-9db415ebef44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFzdGF8ZW58MHx8MHx8fDA%3D" alt="Pasta">
+          <div class="food-overlay">
+            <h3>Pasta</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="food-item">
+        <div class="food-image">
+          <img src="https://images.unsplash.com/photo-1589960178430-4c300b6a2212?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWdnJTIwc2FsYWR8ZW58MHx8MHx8fDA%3D" alt="Egg Salad">
+          <div class="food-overlay">
+            <h3>Egg Salad</h3>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="https://codefactory.wien/en/contact-en/">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="social-media">
+      <div class="social-icons">
+        <a href="#" target="_blank">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/djudi-a-0154a9325/" target="_blank">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/djudiasaad" target="_blank">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <p class="copyright"> 2025 Food Blog</p>  </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-content h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-intro {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about-intro img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.about-mission {
+  margin-bottom: 3rem;
+}
+
+.about-mission h2 {
+  margin-bottom: 1rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
